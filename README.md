@@ -1,6 +1,11 @@
 # MercadoLibre Items API - DDD Architecture
+## Autor: Millan Maximiliano
+## Email: millan.max.j@gmail.com
+
+## 🚀 Introducción: 
 
 API RESTful de productos con arquitectura **Domain-Driven Design (DDD)** y middleware de seguridad completo. Proporciona gestión de productos inspirada en MercadoLibre aplicando principios **SOLID**, **Clean Code** y **KISS**.
+
 
 ## 🚀 Características Principales
 
@@ -186,7 +191,7 @@ app/
 
 ```bash
 # Clonar el repositorio
-git clone <repository-url>
+git clone "https://github.com/weaponsinmyhead/challenge_meli.git"
 cd tecnica4.0
 
 # Crear entorno virtual
@@ -324,7 +329,7 @@ Esta API demuestra una **implementación ejemplar de Domain-Driven Design** con:
 - ✅ **Testing completo** y mantenible
 - ✅ **Documentación exhaustiva** y clara
 
-**Estado**: ✅ **LISTO PARA PRODUCCIÓN**
+**Estado**: ✅ **FINALIZADO**
 
 ---
 
