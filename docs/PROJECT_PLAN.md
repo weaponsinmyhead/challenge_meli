@@ -250,6 +250,6 @@ La integración de herramientas de IA generativa ha permitido acelerar significa
 
 ---
 
-**Desarrollado con Windsurf IDE + Cascade AI**  
+
 **Fecha**: Agosto 2024  
 **Versión**: 1.0.0

@@ -12,7 +12,7 @@ Este documento explica cómo configurar y ejecutar la API RESTful de productos c
 
 ### **1. Clonar el Repositorio**
 ```bash
-git clone <url-del-repositorio>
+git clone "https://github.com/weaponsinmyhead/challenge_meli.git"
 cd tecnica4.0
 ```
 
@@ -96,8 +96,7 @@ pytest --cov=app tests/
 - `GET /api/v1/items/{item_id}` - Obtener detalle de producto
 - `GET /api/v1/items` - Buscar productos
 - `GET /api/v1/items/{item_id}/recommendations` - Obtener recomendaciones
-- `GET /api/v1/items/popular` - Productos populares
-- `GET /api/v1/items/available` - Productos disponibles
+
 
 ### **Ejemplos de Uso**
 ```bash
