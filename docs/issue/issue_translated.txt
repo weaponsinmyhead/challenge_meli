@@ -1,0 +1,38 @@
+1. Detalle del artículo
+
+Objetivo
+Desarrolla una API de backend que proporcione todos los datos necesarios para la página de detalles de un artículo, inspirada en MercadoLibre. 
+Tu API debe proporcionar eficientemente los detalles del producto requeridos y la información relacionada, de acuerdo con las mejores prácticas de desarrollo de backend.
+
+Este ejercicio se centra exclusivamente en el diseño e implementación del backend.
+
+Requisitos
+Backend: Desarrollo de API
+
+Implementar una API que admita el frontend proporcionando los detalles necesarios del producto
+
+El punto final principal debe obtener los detalles del producto
+
+Pila:
+
+Puede utilizar cualquier tecnología de backend o framework de su elección
+
+No utilice bases de datos reales, conserve todo en archivos JSON o CSV locales
+
+Requisitos no funcionales:
+Se prestará especial atención a las buenas prácticas en el manejo de errores, documentación, pruebas y cualquier otro aspecto no funcional relevante que elija demostrar
+
+Uso de herramientas
+Herramientas permitidas: Puede utilizar y se recomienda utilizar herramientas GenAI, IDE agentic y otras herramientas de asistencia de código para ayudar a generar ideas o código.
+
+Documentación y visión general estratégica
+Incluya un breve archivo README o Diagrama (opcional) que explique el diseño de su API, los puntos finales principales, las instrucciones de configuración y cualquier decisión arquitectónica clave que haya tomado durante el desarrollo.
+
+Estrategia técnica:
+Detalle la pila de tecnología elegida para el backend
+Explique cómo se integran GenAI y las herramientas de desarrollo modernas para mejorar la eficiencia
+
+Envío
+Proporcione la carpeta comprimida del proyecto. Esta debe incluir el documento del plan del proyecto.
+Debe contener un run.md que explique cómo ejecutar el proyecto.
+En caso de que se haya utilizado alguna herramienta de productividad de IA, se agradecerá enormemente que pudieras compartir las diferentes indicaciones que se utilizaron en prompts.md dentro del proyecto.

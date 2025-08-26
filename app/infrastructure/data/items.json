@@ -1,0 +1,684 @@
+[ {
+  "id": "MLA000111222",
+  "title": "Parlante Bluetooth ABC PB-10",
+  "category_id": "MLA431838",
+  "price": 45999.0,
+  "currency_id": "ARS",
+  "available_quantity": 8,
+  "sold_quantity": 120,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-000111222",
+  "pictures": [
+    {
+      "id": "PIC-ABC-PB10-1",
+      "url": "http://example.com/images/abc-pb10-1.jpg",
+      "secure_url": "https://example.com/images/abc-pb10-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "cross_docking",
+    "store_pick_up": true
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "ABC", "value_name": "ABC", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "PB-10", "value_name": "PB-10", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "POWER", "name": "Potencia", "value_id": null, "value_name": "20 W", "value_struct": { "number": 20, "unit": "W" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER003", "nickname": "SoundWave" },
+  "warranty": "12 meses",
+  "category_path": ["Electrónica", "Audio", "Parlantes"]
+},
+{
+  "id": "MLA777888999",
+  "title": "Smartphone Samsung Galaxy A34 128GB",
+  "category_id": "MLA1055",
+  "price": 299999.0,
+  "currency_id": "ARS",
+  "available_quantity": 25,
+  "sold_quantity": 980,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-777888999",
+  "pictures": [
+    {
+      "id": "PIC-SAM-A34-1",
+      "url": "http://example.com/images/galaxy-a34-1.jpg",
+      "secure_url": "https://example.com/images/galaxy-a34-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "206", "value_name": "Samsung", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "12345", "value_name": "Galaxy A34", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "INTERNAL_MEMORY", "name": "Memoria interna", "value_id": null, "value_name": "128 GB", "value_struct": { "number": 128, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER004", "nickname": "MobileHouse" },
+  "warranty": "12 meses oficial",
+  "category_path": ["Electrónica", "Celulares y Teléfonos", "Celulares y Smartphones"]
+},
+{
+  "id": "MLA112233445",
+  "title": "Notebook Lenovo IdeaPad 3 15ITL6",
+  "category_id": "MLA1652",
+  "price": 699999.0,
+  "currency_id": "ARS",
+  "available_quantity": 7,
+  "sold_quantity": 75,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-112233445",
+  "pictures": [
+    {
+      "id": "PIC-LEN-IDEAPAD3-1",
+      "url": "http://example.com/images/ideapad3-1.jpg",
+      "secure_url": "https://example.com/images/ideapad3-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "LENOVO", "value_name": "Lenovo", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "15ITL6", "value_name": "IdeaPad 3 15ITL6", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "RAM", "name": "Memoria RAM", "value_id": null, "value_name": "8 GB", "value_struct": { "number": 8, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "STORAGE_CAPACITY", "name": "Almacenamiento", "value_id": null, "value_name": "256 GB SSD", "value_struct": { "number": 256, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER005", "nickname": "PCMarket" },
+  "warranty": "12 meses",
+  "category_path": ["Computación", "Laptops", "Notebooks"]
+},
+{
+  "id": "MLA998877665",
+  "title": "Smart TV LG 55\" 4K UHD",
+  "category_id": "MLA1002",
+  "price": 799999.0,
+  "currency_id": "ARS",
+  "available_quantity": 15,
+  "sold_quantity": 320,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-998877665",
+  "pictures": [
+    {
+      "id": "PIC-LG-55UHD-1",
+      "url": "http://example.com/images/lg-55-uhd-1.jpg",
+      "secure_url": "https://example.com/images/lg-55-uhd-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "cross_docking",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "LG", "value_name": "LG", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "55UHD", "value_name": "55UHD", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SCREEN_SIZE", "name": "Tamaño de pantalla", "value_id": null, "value_name": "55 in", "value_struct": { "number": 55, "unit": "in" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "RESOLUTION", "name": "Resolución", "value_id": "4K", "value_name": "4K UHD", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER006", "nickname": "ElectroShop" },
+  "warranty": "12 meses",
+  "category_path": ["Electrónica", "TV", "Smart TV"]
+},
+{
+  "id": "MLA443322110",
+  "title": "Mouse Inalámbrico Logitech MX Master 3S",
+  "category_id": "MLA43156",
+  "price": 64999.0,
+  "currency_id": "ARS",
+  "available_quantity": 40,
+  "sold_quantity": 1500,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-443322110",
+  "pictures": [
+    {
+      "id": "PIC-LOGI-MX3S-1",
+      "url": "http://example.com/images/mx-master-3s-1.jpg",
+      "secure_url": "https://example.com/images/mx-master-3s-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": false,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": true
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "LOGITECH", "value_name": "Logitech", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "MX3S", "value_name": "MX Master 3S", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "CONNECTIVITY", "name": "Conectividad", "value_id": "BT", "value_name": "Bluetooth", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER007", "nickname": "PerifericosYA" },
+  "warranty": "24 meses",
+  "category_path": ["Computación", "Periféricos", "Mouses"]
+},
+{
+  "id": "MLA221133445",
+  "title": "Consola Sony PlayStation 5 Slim 1TB",
+  "category_id": "MLA438566",
+  "price": 1599999.0,
+  "currency_id": "ARS",
+  "available_quantity": 20,
+  "sold_quantity": 650,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-221133445",
+  "pictures": [
+    {
+      "id": "PIC-PS5-SLIM-1",
+      "url": "http://example.com/images/ps5-slim-1.jpg",
+      "secure_url": "https://example.com/images/ps5-slim-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "cross_docking",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "SONY", "value_name": "Sony", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "CFI-2016", "value_name": "PlayStation 5 Slim", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "STORAGE_CAPACITY", "name": "Almacenamiento", "value_id": null, "value_name": "1 TB", "value_struct": { "number": 1, "unit": "TB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER008", "nickname": "GameCenter" },
+  "warranty": "12 meses oficial",
+  "category_path": ["Consolas y Videojuegos", "Consolas", "PlayStation 5"]
+},
+{
+  "id": "MLA111222333",
+  "title": "iPhone 15 Pro 256GB Titanio Natural",
+  "category_id": "MLA1055",
+  "price": 2499999.0,
+  "currency_id": "ARS",
+  "available_quantity": 8,
+  "sold_quantity": 1200,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-111222333",
+  "pictures": [
+    {
+      "id": "PIC-IPHONE15PRO-1",
+      "url": "http://example.com/images/iphone15pro-1.jpg",
+      "secure_url": "https://example.com/images/iphone15pro-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "APPLE", "value_name": "Apple", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "IPHONE15PRO", "value_name": "iPhone 15 Pro", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "INTERNAL_MEMORY", "name": "Memoria interna", "value_id": null, "value_name": "256 GB", "value_struct": { "number": 256, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "COLOR", "name": "Color", "value_id": "TITANIUM", "value_name": "Titanio Natural", "value_struct": null, "attribute_group_id": "MAIN", "attribute_group_name": "Principal" }
+  ],
+  "seller": { "id": "SELLER009", "nickname": "AppleStore" },
+  "warranty": "12 meses oficial",
+  "category_path": ["Electrónica", "Celulares y Teléfonos", "Celulares y Smartphones"]
+},
+{
+  "id": "MLA444555666",
+  "title": "MacBook Air M2 13\" 256GB",
+  "category_id": "MLA1652",
+  "price": 1899999.0,
+  "currency_id": "ARS",
+  "available_quantity": 12,
+  "sold_quantity": 450,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-444555666",
+  "pictures": [
+    {
+      "id": "PIC-MACBOOKAIR-M2-1",
+      "url": "http://example.com/images/macbook-air-m2-1.jpg",
+      "secure_url": "https://example.com/images/macbook-air-m2-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "APPLE", "value_name": "Apple", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "MACBOOKAIR-M2", "value_name": "MacBook Air M2", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "STORAGE_CAPACITY", "name": "Almacenamiento", "value_id": null, "value_name": "256 GB SSD", "value_struct": { "number": 256, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SCREEN_SIZE", "name": "Tamaño de pantalla", "value_id": null, "value_name": "13 in", "value_struct": { "number": 13, "unit": "in" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER009", "nickname": "AppleStore" },
+  "warranty": "12 meses oficial",
+  "category_path": ["Computación", "Laptops", "Notebooks"]
+},
+{
+  "id": "MLA888999777",
+  "title": "Nintendo Switch OLED 64GB",
+  "category_id": "MLA438566",
+  "price": 899999.0,
+  "currency_id": "ARS",
+  "available_quantity": 30,
+  "sold_quantity": 890,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-888999777",
+  "pictures": [
+    {
+      "id": "PIC-SWITCH-OLED-1",
+      "url": "http://example.com/images/switch-oled-1.jpg",
+      "secure_url": "https://example.com/images/switch-oled-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "NINTENDO", "value_name": "Nintendo", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "SWITCH-OLED", "value_name": "Switch OLED", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "STORAGE_CAPACITY", "name": "Almacenamiento", "value_id": null, "value_name": "64 GB", "value_struct": { "number": 64, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER008", "nickname": "GameCenter" },
+  "warranty": "12 meses",
+  "category_path": ["Consolas y Videojuegos", "Consolas", "Nintendo Switch"]
+},
+{
+  "id": "MLA123789456",
+  "title": "Teclado Mecánico Razer BlackWidow V3",
+  "category_id": "MLA43156",
+  "price": 129999.0,
+  "currency_id": "ARS",
+  "available_quantity": 25,
+  "sold_quantity": 320,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-123789456",
+  "pictures": [
+    {
+      "id": "PIC-RAZER-BW-V3-1",
+      "url": "http://example.com/images/razer-bw-v3-1.jpg",
+      "secure_url": "https://example.com/images/razer-bw-v3-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": false,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": true
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "RAZER", "value_name": "Razer", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "BLACKWIDOW-V3", "value_name": "BlackWidow V3", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SWITCH_TYPE", "name": "Tipo de switch", "value_id": "GREEN", "value_name": "Green", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER007", "nickname": "PerifericosYA" },
+  "warranty": "24 meses",
+  "category_path": ["Computación", "Periféricos", "Teclados"]
+},
+{
+  "id": "MLA456123789",
+  "title": "Cámara Canon EOS R6 Mark II",
+  "category_id": "MLA5726",
+  "price": 2499999.0,
+  "currency_id": "ARS",
+  "available_quantity": 5,
+  "sold_quantity": 45,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-456123789",
+  "pictures": [
+    {
+      "id": "PIC-CANON-R6-II-1",
+      "url": "http://example.com/images/canon-r6-ii-1.jpg",
+      "secure_url": "https://example.com/images/canon-r6-ii-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "CANON", "value_name": "Canon", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "EOS-R6-II", "value_name": "EOS R6 Mark II", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SENSOR_TYPE", "name": "Tipo de sensor", "value_id": "FULL_FRAME", "value_name": "Full Frame", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER010", "nickname": "FotoPro" },
+  "warranty": "12 meses oficial",
+  "category_path": ["Electrónica", "Cámaras y Accesorios", "Cámaras Réflex"]
+},
+{
+  "id": "MLA789456123",
+  "title": "Drone DJI Mini 3 Pro",
+  "category_id": "MLA5726",
+  "price": 899999.0,
+  "currency_id": "ARS",
+  "available_quantity": 15,
+  "sold_quantity": 180,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-789456123",
+  "pictures": [
+    {
+      "id": "PIC-DJI-MINI3PRO-1",
+      "url": "http://example.com/images/dji-mini3pro-1.jpg",
+      "secure_url": "https://example.com/images/dji-mini3pro-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "DJI", "value_name": "DJI", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "MINI-3-PRO", "value_name": "Mini 3 Pro", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "FLIGHT_TIME", "name": "Tiempo de vuelo", "value_id": null, "value_name": "34 min", "value_struct": { "number": 34, "unit": "min" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER010", "nickname": "FotoPro" },
+  "warranty": "12 meses",
+  "category_path": ["Electrónica", "Cámaras y Accesorios", "Drones"]
+},
+{
+  "id": "MLA321654987",
+  "title": "Smartwatch Apple Watch Series 9 45mm",
+  "category_id": "MLA3697",
+  "price": 599999.0,
+  "currency_id": "ARS",
+  "available_quantity": 18,
+  "sold_quantity": 420,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-321654987",
+  "pictures": [
+    {
+      "id": "PIC-APPLE-WATCH-9-1",
+      "url": "http://example.com/images/apple-watch-9-1.jpg",
+      "secure_url": "https://example.com/images/apple-watch-9-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "APPLE", "value_name": "Apple", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "WATCH-SERIES-9", "value_name": "Watch Series 9", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SCREEN_SIZE", "name": "Tamaño de pantalla", "value_id": null, "value_name": "45 mm", "value_struct": { "number": 45, "unit": "mm" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER009", "nickname": "AppleStore" },
+  "warranty": "12 meses oficial",
+  "category_path": ["Electrónica", "Smartwatches", "Apple Watch"]
+},
+{
+  "id": "MLA147258369",
+  "title": "Tablet Samsung Galaxy Tab S9 11\" 128GB",
+  "category_id": "MLA82028",
+  "price": 899999.0,
+  "currency_id": "ARS",
+  "available_quantity": 22,
+  "sold_quantity": 280,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-147258369",
+  "pictures": [
+    {
+      "id": "PIC-SAM-TAB-S9-1",
+      "url": "http://example.com/images/galaxy-tab-s9-1.jpg",
+      "secure_url": "https://example.com/images/galaxy-tab-s9-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "206", "value_name": "Samsung", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "GALAXY-TAB-S9", "value_name": "Galaxy Tab S9", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SCREEN_SIZE", "name": "Tamaño de pantalla", "value_id": null, "value_name": "11 in", "value_struct": { "number": 11, "unit": "in" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "INTERNAL_MEMORY", "name": "Memoria interna", "value_id": null, "value_name": "128 GB", "value_struct": { "number": 128, "unit": "GB" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER004", "nickname": "MobileHouse" },
+  "warranty": "12 meses",
+  "category_path": ["Electrónica", "Tablets", "Samsung"]
+},
+{
+  "id": "MLA963852741",
+  "title": "Monitor Gaming ASUS ROG Swift PG279QM 27\"",
+  "category_id": "MLA43156",
+  "price": 1299999.0,
+  "currency_id": "ARS",
+  "available_quantity": 8,
+  "sold_quantity": 95,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-963852741",
+  "pictures": [
+    {
+      "id": "PIC-ASUS-ROG-PG279QM-1",
+      "url": "http://example.com/images/asus-rog-pg279qm-1.jpg",
+      "secure_url": "https://example.com/images/asus-rog-pg279qm-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "ASUS", "value_name": "ASUS", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "MODEL", "name": "Modelo", "value_id": "ROG-PG279QM", "value_name": "ROG Swift PG279QM", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "SCREEN_SIZE", "name": "Tamaño de pantalla", "value_id": null, "value_name": "27 in", "value_struct": { "number": 27, "unit": "in" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "RESOLUTION", "name": "Resolución", "value_id": "2K", "value_name": "2560x1440", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+    { "id": "REFRESH_RATE", "name": "Tasa de refresco", "value_id": null, "value_name": "240 Hz", "value_struct": { "number": 240, "unit": "Hz" }, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": { "id": "SELLER005", "nickname": "PCMarket" },
+  "warranty": "36 meses",
+  "category_path": ["Computación", "Monitores", "Gaming"]
+},
+{
+  "id": "MLA159357486",
+  "title": "Producto Sin Marca Genérico",
+  "category_id": "MLA3697",
+  "price": 15999.0,
+  "currency_id": "ARS",
+  "available_quantity": 100,
+  "sold_quantity": 50,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-159357486",
+  "pictures": [
+    {
+      "id": "PIC-GENERIC-1",
+      "url": "http://example.com/images/generic-1.jpg",
+      "secure_url": "https://example.com/images/generic-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": {
+    "free_shipping": false,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [],
+  "seller": { "id": "SELLER011", "nickname": "GenericStore" },
+  "warranty": null,
+  "category_path": ["Electrónica", "Audio", "Auriculares"]
+},
+{
+  "id": "MLA753951486",
+  "title": "Producto Sin Envío",
+  "category_id": "MLA3697",
+  "price": 29999.0,
+  "currency_id": "ARS",
+  "available_quantity": 5,
+  "sold_quantity": 10,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-753951486",
+  "pictures": [
+    {
+      "id": "PIC-NO-SHIPPING-1",
+      "url": "http://example.com/images/no-shipping-1.jpg",
+      "secure_url": "https://example.com/images/no-shipping-1.jpg",
+      "size": "500x500",
+      "max_size": "1200x1200",
+      "quality": ""
+    }
+  ],
+  "shipping": null,
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "TEST", "value_name": "Test", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": null,
+  "warranty": "Sin garantía",
+  "category_path": ["Electrónica", "Audio", "Auriculares"]
+},
+{
+  "id": "MLA951753486",
+  "title": "Producto Sin Vendedor",
+  "category_id": "MLA3697",
+  "price": 19999.0,
+  "currency_id": "ARS",
+  "available_quantity": 0,
+  "sold_quantity": 0,
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-951753486",
+  "pictures": [],
+  "shipping": {
+    "free_shipping": true,
+    "mode": "me2",
+    "logistic_type": "drop_off",
+    "store_pick_up": false
+  },
+  "attributes": [
+    { "id": "BRAND", "name": "Marca", "value_id": "NO-SELLER", "value_name": "No Seller", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+  ],
+  "seller": null,
+  "warranty": null,
+  "category_path": null
+},
+  {
+    "id": "MLA123456789",
+    "title": "Auriculares Bluetooth XYZ BT-500",
+    "category_id": "MLA3697",
+    "price": 39999.99,
+    "currency_id": "ARS",
+    "available_quantity": 12,
+    "sold_quantity": 340,
+    "condition": "new",
+    "permalink": "https://articulo.mercadolibre.com.ar/MLA-123456789",
+    "pictures": [
+      {
+        "id": "PIC-XYZ-BT500-1",
+        "url": "http://example.com/images/xyz-bt500-1.jpg",
+        "secure_url": "https://example.com/images/xyz-bt500-1.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      }
+    ],
+    "shipping": {
+      "free_shipping": true,
+      "mode": "me2",
+      "logistic_type": "drop_off",
+      "store_pick_up": false
+    },
+    "attributes": [
+      { "id": "BRAND", "name": "Marca", "value_id": "XYZ", "value_name": "XYZ", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+      { "id": "MODEL", "name": "Modelo", "value_id": "BT-500", "value_name": "BT-500", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+    ],
+    "seller": { "id": "SELLER001", "nickname": "TechStore" },
+    "warranty": "12 meses",
+    "category_path": ["Electrónica", "Audio", "Auriculares"]
+  },
+  {
+    "id": "MLA654321987",
+    "title": "Auriculares Inalámbricos XYZ Lite",
+    "category_id": "MLA3697",
+    "price": 29999.0,
+    "currency_id": "ARS",
+    "available_quantity": 5,
+    "sold_quantity": 210,
+    "condition": "new",
+    "permalink": "https://articulo.mercadolibre.com.ar/MLA-654321987",
+    "pictures": [
+      {
+        "id": "PIC-XYZ-LITE-1",
+        "url": "http://example.com/images/xyz-lite-1.jpg",
+        "secure_url": "https://example.com/images/xyz-lite-1.jpg",
+        "size": "500x500",
+        "max_size": "1200x1200",
+        "quality": ""
+      }
+    ],
+    "shipping": {
+      "free_shipping": false,
+      "mode": "me2",
+      "logistic_type": "drop_off",
+      "store_pick_up": false
+    },
+    "attributes": [
+      { "id": "BRAND", "name": "Marca", "value_id": "XYZ", "value_name": "XYZ", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" },
+      { "id": "MODEL", "name": "Modelo", "value_id": "LITE", "value_name": "Lite", "value_struct": null, "attribute_group_id": "OTHERS", "attribute_group_name": "Otros" }
+    ],
+    "seller": { "id": "SELLER002", "nickname": "AudioShop" },
+    "warranty": "6 meses",
+    "category_path": ["Electrónica", "Audio", "Auriculares"]
+  }
+]

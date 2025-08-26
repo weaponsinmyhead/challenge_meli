@@ -1,0 +1,30 @@
+# Ignorar entornos virtuales
+.venv/
+venv/
+
+/bin/
+/include/
+/lib/
+/lib64/
+
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Ignorar archivos de FastAPI/Uvicorn
+*.log
+.mypy_cache/
+.vscode/
+
+# Ignorar bases de datos locales y archivos de configuración sensibles
+db.sqlite3
+
+.env.local
+.DS_Store
+
+# Ignorar archivos comprimidos y temporales
+*.rar
+*.zip
+*.tar.gz
