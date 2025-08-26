@@ -177,7 +177,7 @@ class TestAPIIntegration:
     
     def test_search_endpoint_basic(self, client):
         """Test búsqueda básica - endpoint principal."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items", headers=headers)
         assert response.status_code == 200
         data = response.json()
@@ -187,7 +187,7 @@ class TestAPIIntegration:
     
     def test_search_with_limit(self, client):
         """Test paginación - funcionalidad crítica."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items?limit=3", headers=headers)
         assert response.status_code == 200
         data = response.json()
@@ -196,7 +196,7 @@ class TestAPIIntegration:
     
     def test_item_by_id_not_found(self, client):
         """Test manejo de errores 404 - crítico para UX."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items/MLA999999999", headers=headers)
         # Puede ser 404 o 400 dependiendo de la validación
         assert response.status_code in [400, 404]
@@ -206,7 +206,7 @@ class TestAPIIntegration:
     
     def test_popular_items(self, client):
         """Test items populares - funcionalidad de negocio."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items/popular?limit=3", headers=headers)
         assert response.status_code == 200
         data = response.json()
@@ -215,7 +215,7 @@ class TestAPIIntegration:
     
     def test_available_items(self, client):
         """Test items disponibles - filtrado crítico."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items/available?limit=3", headers=headers)
         assert response.status_code == 200
         data = response.json()

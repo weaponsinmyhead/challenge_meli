@@ -27,49 +27,23 @@ class EnvConfig:
     CORS_HEADERS: list = os.getenv("CORS_HEADERS", "X-API-Key,Content-Type,Authorization").split(",")
     
     @classmethod
-    def get_api_keys(cls) -> Dict[str, str]:
+    def get_api_keys(cls) -> set:
         """
-        Obtiene las API keys desde variables de entorno.
+        Obtiene las API keys válidas desde variables de entorno.
         
         Returns:
-            Dict[str, str]: Diccionario con API key -> rol
+            set: Conjunto de API keys válidas
         """
-        api_keys = {}
+        api_keys = set()
         
-        # API Keys específicas
-        admin_key = os.getenv("API_KEY_ADMIN", "")
-        user_key = os.getenv("API_KEY_USER", "")
-        readonly_key = os.getenv("API_KEY_READONLY", "")
+        # Cargar API key desde variable de entorno
+        api_key = os.getenv("API_KEY", "")
+        if api_key:
+            api_keys.add(api_key)
         
-        # Procesar API keys en formato "clave:rol"
-        for env_key, default_role in [
-            (admin_key, "admin"),
-            (user_key, "user"), 
-            (readonly_key, "readonly")
-        ]:
-            if env_key:
-                if ":" in env_key:
-                    key, role = env_key.split(":", 1)
-                    api_keys[key] = role
-                else:
-                    api_keys[env_key] = default_role
-        
-        # API Key genérica para desarrollo
-        generic_key = os.getenv("X_API_KEY", "")
-        if generic_key:
-            if ":" in generic_key:
-                key, role = generic_key.split(":", 1)
-                api_keys[key] = role
-            else:
-                api_keys[generic_key] = "user"
-        
-        # Si no hay API keys en .env, usar valores por defecto para desarrollo
+        # Si no hay API key en .env, usar valor por defecto para desarrollo
         if not api_keys:
-            api_keys = {
-                "ml-api-key-admin": "admin",
-                "ml-api-key-user": "user",
-                "ml-api-key-readonly": "readonly"
-            }
+            api_keys.add("meli2024abc123xyz789")
         
         return api_keys
     

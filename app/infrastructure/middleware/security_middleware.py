@@ -20,7 +20,7 @@ class SecurityMiddleware(BaseHTTPMiddleware):
     - Logging de accesos
     """
     
-    def __init__(self, app, api_keys: Optional[Dict[str, str]] = None):
+    def __init__(self, app, api_keys: Optional[set] = None):
         super().__init__(app)
         # API Keys desde variables de entorno
         self.api_keys = api_keys or config.get_api_keys()
@@ -38,6 +38,13 @@ class SecurityMiddleware(BaseHTTPMiddleware):
         start_time = time.time()
         
         try:
+            # Debug: Log de la ruta que se está procesando
+            logger.info(f"Processing route: {request.url.path}")
+            
+            # Verificar si es ruta pública primero
+            is_public = self._is_public_route(request.url.path)
+            logger.info(f"Route {request.url.path} is public: {is_public}")
+            
             # 1. Verificar rate limiting
             if not self._check_rate_limit(request):
                 return self._create_error_response(
@@ -47,7 +54,7 @@ class SecurityMiddleware(BaseHTTPMiddleware):
                 )
             
             # 2. Verificar autenticación (solo para rutas protegidas)
-            if not self._is_public_route(request.url.path):
+            if not is_public:
                 auth_result = self._authenticate_request(request)
                 if not auth_result["valid"]:
                     return self._create_error_response(
@@ -57,7 +64,6 @@ class SecurityMiddleware(BaseHTTPMiddleware):
                     )
                 
                 # Agregar información del usuario al request
-                request.state.user_role = auth_result["role"]
                 request.state.api_key = auth_result["api_key"]
             
             # 3. Procesar request
@@ -113,7 +119,6 @@ class SecurityMiddleware(BaseHTTPMiddleware):
             return {
                 "valid": False,
                 "message": "API Key required. Use X-API-Key header or api_key query parameter.",
-                "role": None,
                 "api_key": None
             }
         
@@ -122,14 +127,12 @@ class SecurityMiddleware(BaseHTTPMiddleware):
             return {
                 "valid": True,
                 "message": "Authentication successful",
-                "role": self.api_keys[api_key],
                 "api_key": api_key
             }
         
         return {
             "valid": False,
             "message": "Invalid API Key",
-            "role": None,
             "api_key": api_key
         }
     
@@ -238,39 +241,21 @@ class APIKeyValidator:
     Validador de API Keys para uso en dependencias de FastAPI.
     """
     
-    def __init__(self, required_role: Optional[str] = None):
-        self.required_role = required_role
+    def __init__(self):
         self.security = HTTPBearer(auto_error=False)
     
     async def __call__(self, request: Request) -> Dict[str, Any]:
-        """Valida API Key y rol requerido."""
+        """Valida API Key."""
         # Si ya fue validado por el middleware, usar esa información
-        if hasattr(request.state, "user_role"):
-            user_info = {
-                "role": request.state.user_role,
-                "api_key": request.state.api_key
+        if hasattr(request.state, "api_key") and request.state.api_key:
+            return {
+                "api_key": request.state.api_key,
+                "authenticated": True
             }
-            
-            # Verificar rol si es requerido
-            if self.required_role and user_info["role"] != self.required_role:
-                raise HTTPException(
-                    status_code=status.HTTP_403_FORBIDDEN,
-                    detail={
-                        "error": {
-                            "code": "INSUFFICIENT_PERMISSIONS",
-                            "message": f"Role '{self.required_role}' required"
-                        }
-                    }
-                )
-            
-            return user_info
         
         # Si no hay información de usuario, es una ruta pública
-        return {"role": "public", "api_key": None}
+        return {"api_key": None, "authenticated": False}
 
 
-# Instancias predefinidas para diferentes roles
-require_admin = APIKeyValidator("admin")
-require_user = APIKeyValidator("user") 
-require_readonly = APIKeyValidator("readonly")
-optional_auth = APIKeyValidator()  # Sin rol requerido
+# Instancia para validación de API Key
+require_api_key = APIKeyValidator()

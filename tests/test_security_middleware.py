@@ -24,13 +24,13 @@ class TestSecurityMiddleware:
     
     def test_protected_endpoint_with_valid_api_key_header(self):
         """Debe permitir acceso con API key válida en header."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items/MLA111222333", headers=headers)
         assert response.status_code in [200, 404]  # 404 si el item no existe
     
     def test_protected_endpoint_with_valid_api_key_query(self):
         """Debe permitir acceso con API key válida en query parameter."""
-        response = client.get("/api/v1/items/MLA111222333?api_key=ml-api-key-user-2024")
+        response = client.get("/api/v1/items/MLA111222333?api_key=meli2024abc123xyz789")
         assert response.status_code in [200, 404]  # 404 si el item no existe
     
     def test_protected_endpoint_with_invalid_api_key(self):
@@ -53,26 +53,15 @@ class TestSecurityMiddleware:
         assert "Strict-Transport-Security" in response.headers
         assert "X-API-Version" in response.headers
     
-    def test_different_api_key_roles(self):
-        """Debe reconocer diferentes roles de API keys."""
-        # Test admin key
-        headers = {"X-API-Key": "ml-api-key-admin-2024"}
-        response = client.get("/api/v1/items", headers=headers)
-        assert response.status_code == 200
-        
-        # Test user key
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
-        response = client.get("/api/v1/items", headers=headers)
-        assert response.status_code == 200
-        
-        # Test readonly key
-        headers = {"X-API-Key": "ml-api-key-readonly-2024"}
+    def test_api_key_authentication(self):
+        """Debe autenticar correctamente con API key válida."""
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         response = client.get("/api/v1/items", headers=headers)
         assert response.status_code == 200
     
     def test_rate_limiting_basic(self):
         """Test básico de rate limiting (no exhaustivo por tiempo)."""
-        headers = {"X-API-Key": "ml-api-key-user-2024"}
+        headers = {"X-API-Key": "meli2024abc123xyz789"}
         
         # Hacer algunas requests para verificar que no hay error inmediato
         for _ in range(5):

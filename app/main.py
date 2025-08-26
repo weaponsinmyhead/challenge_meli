@@ -30,21 +30,19 @@ app = FastAPI(
 - Headers de seguridad: CORS, XSS Protection, CSP
 - Logging completo de accesos
 
-**API Keys disponibles:**
-- `ml-api-key-admin` (rol: admin) - Acceso completo
-- `ml-api-key-user` (rol: user) - Endpoints de consulta
-- `ml-api-key-readonly` (rol: readonly) - Solo lectura
+**API Key:**
+- `meli2024abc123xyz789` - Acceso completo a la API
 
-**Uso de API Keys:**
+**Uso de API Key:**
 
 Método 1 - Header:
 ```
-X-API-Key: ml-api-key-user
+X-API-Key: meli2024abc123xyz789
 ```
 
 Método 2 - Query Parameter:
 ```
-?api_key=ml-api-key-user
+?api_key=meli2024abc123xyz789
 ```
 
 **Códigos de error de seguridad:**
@@ -92,18 +90,18 @@ Método 2 - Query Parameter:
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=False,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
 )
 
-# Middleware de seguridad deshabilitado temporalmente para debugging
+# Middleware de seguridad con logging para debugging
 app.add_middleware(SecurityMiddleware)
 
 # Endpoint de prueba simple (sin middleware)
 @app.get("/test")
 def test_endpoint():
-    return {"status": "working", "message": "Server is responding"}
+    return {"status": "working", "message": "Server is responding with middleware"}
 
 # Incluir routers
 app.include_router(item_router)

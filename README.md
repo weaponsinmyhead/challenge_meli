@@ -16,20 +16,22 @@ API RESTful de productos con arquitectura **Domain-Driven Design (DDD)** y middl
 - **Testing Completo**: Suite de tests unitarios e integración
 - **Configuración Flexible**: Variables de entorno y múltiples fuentes de datos
 
-## 🔐 Seguridad
+## 🔐 Autenticación
 
-### 🛡️ **Autenticación por API Key**
-- **Métodos**: Header `X-API-Key` o query parameter `api_key`
-- **Rutas públicas**: `/docs`, `/redoc`, `/openapi.json`, `/api/v1/health`, `/test`
-- **Middleware configurable**: Puede habilitarse/deshabilitarse según necesidad
+La API utiliza **API Key única** para autenticación:
 
-### 🔑 **API Keys Disponibles**
-| API Key | Rol | Descripción |
-|---------|-----|-------------|
-| `ml-api-key-admin-2024` | admin | Acceso completo |
-| `ml-api-key-user-2024` | user | Endpoints de consulta |
-| `ml-api-key-readonly-2024` | readonly | Solo lectura |
-| `ml-api-key-dev-2024` | user | Desarrollo |
+```bash
+# Header requerido
+X-API-Key: meli2024abc123xyz789
+```
+
+**Métodos de autenticación:**
+1. **Header**: `X-API-Key: meli2024abc123xyz789`
+2. **Query param**: `?api_key=meli2024abc123xyz789`
+
+### 🔑 **API Key**
+La API utiliza una sola clave alfanumérica para simplificar la autenticación:
+- **API Key**: `meli2024abc123xyz789`
 
 ### 🚦 **Rate Limiting & Seguridad**
 - **Rate Limiting**: 100 requests/minuto por IP
@@ -129,8 +131,6 @@ app/
 | GET | `/api/v1/items/{item_id}` | Detalle de producto |
 | GET | `/api/v1/items` | Búsqueda con filtros |
 | GET | `/api/v1/items/{item_id}/recommendations` | Recomendaciones |
-| GET | `/api/v1/items/popular` | Productos populares |
-| GET | `/api/v1/items/available` | Productos disponibles |
 
 ### 🎯 Funcionalidades Principales
 
@@ -145,13 +145,6 @@ app/
 - 🏥 **Health check** para monitoreo
 
 ### 🔍 Sistema de Búsqueda Avanzada
-
-**Búsqueda Inteligente:**
-- 🔍 **Por término**: Busca en título, marca y modelo
-- 🏷️ **Por categoría**: Filtrado por categoría específica
-- 🏭 **Por marca**: Filtrado por marca específica
-- 💰 **Por rango de precios**: Precio mínimo y máximo
-- 📦 **Por disponibilidad**: Solo productos con stock
 
 **Ordenamiento Flexible:**
 - 💰 Por precio (ascendente/descendente)
@@ -320,6 +313,8 @@ pytest -v
 3. **Inventario**: Gestión de stock en tiempo real
 4. **Precios**: Historial de precios y ofertas
 
+---
+
 ## 🎉 Conclusión
 
 Esta API demuestra una **implementación ejemplar de Domain-Driven Design** con:
@@ -329,8 +324,10 @@ Esta API demuestra una **implementación ejemplar de Domain-Driven Design** con:
 - ✅ **Testing completo** y mantenible
 - ✅ **Documentación exhaustiva** y clara
 
-**Estado**: ✅ **FINALIZADO**
+
 
 ---
+## Postman Collection 
+- [Postman Collection](https://frutidesarrollo.postman.co/workspace/tec~129a5fba-ff22-42f8-b70e-6e30647d1e92/collection/20569033-f5e56515-6311-493a-96fa-e1bbf2704557?action=share&creator=20569033&active-environment=20569033-e7a81082-5f63-4078-ad97-a165c8626655)
 
 *Desarrollado siguiendo las mejores prácticas de arquitectura de software moderna.*
